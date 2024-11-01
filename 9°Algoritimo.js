@@ -6,3 +6,14 @@ modifique-a para "praticar esportes". Imprima a lista de metas semanais no final
 Dicas: Empurrar em inglês - If
 */
 
+let metasSemana = [];
+
+metasSemana.push("ler um livro");
+metasSemana.push("exercício físico");
+metasSemana.push("aprender uma nova habilidade");
+
+if (metasSemana[1] !== "exercício físico") {
+    metasSemana[1] = "praticar esportes";
+}
+
+console.log("Metas Semanais:", metasSemana);
